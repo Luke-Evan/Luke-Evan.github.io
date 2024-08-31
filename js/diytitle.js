@@ -10,9 +10,9 @@ document.addEventListener('visibilitychange', function () {
     else {
         //返回当前页面时标签显示内容
         document.title = '♪(^∇^*)欢迎回来！' + OriginTitile;
-        //两秒后变回正常标题
+        //一秒后变回正常标题
         titleTime = setTimeout(function () {
             document.title = OriginTitile;
-        }, 2000);
+        }, 1000);
     }
 });
